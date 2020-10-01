@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+string str ="hello world";
+
+int len=str.size();
+int len1=str.length();
+
+
+cout<<"string length by size fn " <<len<<"\n";
+cout<<"string length by length fn " <<len1<<"\n";
+
+
+}
